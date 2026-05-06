@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(57, 253, 54);
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavBar{
+    font-size: 1.2rem;
+    font-weight: 100;
+
+}
+
+#mainNavBar .nav-link{
+ color: aqua;
+ text-decoration: none;
+}
+
+#mainNavBar .nav-link:hover{
+    color: #ea1c2c;
+    text-decoration: none;
+}
+
+#mainNavBar .navbar-brand {
+
+  color: #ea1c2c;
+    font-size: 1.5rem;
+ 
+}
+
+#headingGroup span{
+    color:#ff8c00;
+}
+
+  #headingGroup h1 {
+        font-size: 4rem;
+        font-weight: 100;
+        
+    }
+
+.pokeballIcon {
+    width: 100px;  /* Adjust as needed */
+    height: auto;  /* Maintains aspect ratio */
+}
+
+.mopHeader{
+    color: #b21623;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.mopDescription{
+    color: #ea1c2c;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.navbar.scrolled{
+    background: black;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px){
+     #headingGroup h1 {
+        font-size: 3rem;
+        font-weight: 100;
+        
+    }
+    
+   
+}
